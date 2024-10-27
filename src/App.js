@@ -3,12 +3,12 @@ import './App.css';
 import Card from './Components/Card';
 
 const cardImages=[
-  {"src": "/images/crystal.png", matched: false},
-  {"src": "/images/fairy-wings.png", matched: false},
-  {"src": "/images/key.png", matched: false},
-  {"src": "/images/potion.png", matched: false},
-  {"src": "/images/ring.png", matched: false},
-  {"src": "/images/wizard-hat.png", matched: false}
+  {"src": "./images/crystal.png", matched: false},
+  {"src": "./images/fairy-wings.png", matched: false},
+  {"src": "./images/key.png", matched: false},
+  {"src": "./images/potion.png", matched: false},
+  {"src": "./images/ring.png", matched: false},
+  {"src": "./images/wizard-hat.png", matched: false}
 ];
 
 const App=()=>{
