@@ -16,7 +16,7 @@ const App=()=>{
   const [cards,setCards]=useState([]);  //'cards' state: empty array with useState([])
 
   //hide moves info when the component first loads
-  const [showMoves, setShowMoves] = useState(false);
+  const [showMoves, setShowMoves]=useState(false);
 
   //keep track of the number of moves taken
   const [moves,setMoves]=useState(0);   //initializes the 'turns' state with a value of 0
@@ -33,11 +33,11 @@ const App=()=>{
     const shuffleCards=[...cardImages,...cardImages] //...: copy or merge arrays-> duplicating card images to have pairs of each card
       .sort(()=>Math.random()-0.5)  //generates a random floating-point number between 0 and 1, subtracting 0.5 shifts this range to -0.5 to +0.5, for [A, B]: A stays before B if result -ve
       .map((card)=>({...card, id: Math.random()})); //maps over each card to add a unique id to every card object
-    setChoice1(null);
-    setChoice2(null);
-    setCards(shuffleCards);
-    setShowMoves(false);
-    setMoves(0);
+      setCards(shuffleCards);
+      setShowMoves(false);
+      setMoves(0);
+      setChoice1(null);
+      setChoice2(null);
   }
 
   console.log(cards,moves);
