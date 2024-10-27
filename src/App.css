@@ -1,0 +1,39 @@
+.App{
+  max-width: 860px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+button{
+  background: #387478;
+  color: black;
+  font-size: 1.1rem;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.moves-count{
+  font-weight: bold;
+}
+
+.card-grid{
+  width: fit-content;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.front,.back{
+  height: 100px;
+  cursor: pointer;
+}
