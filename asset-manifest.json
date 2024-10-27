@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mind-Pair/static/css/main.894a358a.css",
+    "main.js": "/Mind-Pair/static/js/main.f139b2a3.js",
+    "index.html": "/Mind-Pair/index.html",
+    "main.894a358a.css.map": "/Mind-Pair/static/css/main.894a358a.css.map",
+    "main.f139b2a3.js.map": "/Mind-Pair/static/js/main.f139b2a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.894a358a.css",
+    "static/js/main.f139b2a3.js"
+  ]
+}
