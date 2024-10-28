@@ -2,14 +2,30 @@ import { useEffect, useState } from 'react';  //hooks
 import './App.css';
 import Card from './Components/Card';
 
-const cardImages=[
-  {"src": "./images/crystal.png", matched: false},
-  {"src": "./images/fairy-wings.png", matched: false},
-  {"src": "./images/key.png", matched: false},
-  {"src": "./images/potion.png", matched: false},
-  {"src": "./images/ring.png", matched: false},
-  {"src": "./images/wizard-hat.png", matched: false}
+import cover from './images/cover-7.jpg';
+import crystal from './images/crystal.png';
+import fairyWings from './images/fairy-wings.png';
+import key from './images/key.png';
+import potion from './images/potion.png';
+import ring from './images/ring.png';
+import wizardHat from './images/wizard-hat.png';
+
+const cardImages = [
+  { "src": crystal, matched: false },
+  { "src": fairyWings, matched: false },
+  { "src": key, matched: false },
+  { "src": potion, matched: false },
+  { "src": ring, matched: false },
+  { "src": wizardHat, matched: false }
 ];
+// const cardImages=[
+//   {"src": "./images/crystal.png", matched: false},
+//   {"src": "./images/fairy-wings.png", matched: false},
+//   {"src": "./images/key.png", matched: false},
+//   {"src": "./images/potion.png", matched: false},
+//   {"src": "./images/ring.png", matched: false},
+//   {"src": "./images/wizard-hat.png", matched: false}
+// ];
 
 const App=()=>{
   //hold the shuffled deck of cards

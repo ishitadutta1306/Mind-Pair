@@ -1,6 +1,8 @@
 import React from 'react';
 import './Card.css';
 
+import cover from '../images/cover-7.jpg';
+
 const Card=({card,handleChoice,flipped,disabled})=>{ //props 'card' & 'handleChoice' need to be destructured: {card,handleChoice} in the function parameter to work
     const handleClick=()=>{
         if (!disabled){
@@ -19,7 +21,8 @@ const Card=({card,handleChoice,flipped,disabled})=>{ //props 'card' & 'handleCho
 
                 <img 
                     className="back" 
-                    src="/images/cover-7.jpg" 
+                    // src="/images/cover-7.jpg" 
+                    src={cover}
                     onClick={handleClick} 
                     alt="card-back"
                 />
