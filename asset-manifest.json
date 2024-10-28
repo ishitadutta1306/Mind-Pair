@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/Mind-Pair/static/css/main.894a358a.css",
-    "main.js": "/Mind-Pair/static/js/main.53f83b2d.js",
+    "main.js": "/Mind-Pair/static/js/main.34157b60.js",
+    "static/media/cover-7.jpg": "/Mind-Pair/static/media/cover-7.45439abc8aee9c2bf128.jpg",
+    "static/media/fairy-wings.png": "/Mind-Pair/static/media/fairy-wings.aa16dcf8ed71e5450bd8.png",
+    "static/media/crystal.png": "/Mind-Pair/static/media/crystal.b68aa36629da71f8f75a.png",
+    "static/media/ring.png": "/Mind-Pair/static/media/ring.ce53cbcc0eb215ca6d8d.png",
+    "static/media/potion.png": "/Mind-Pair/static/media/potion.e1cfe56c0828bc1b9ca8.png",
+    "static/media/wizard-hat.png": "/Mind-Pair/static/media/wizard-hat.59c1b3c3fba5f94e1a2c.png",
+    "static/media/key.png": "/Mind-Pair/static/media/key.21eac56a0dc398780333.png",
     "index.html": "/Mind-Pair/index.html",
     "main.894a358a.css.map": "/Mind-Pair/static/css/main.894a358a.css.map",
-    "main.53f83b2d.js.map": "/Mind-Pair/static/js/main.53f83b2d.js.map"
+    "main.34157b60.js.map": "/Mind-Pair/static/js/main.34157b60.js.map"
   },
   "entrypoints": [
     "static/css/main.894a358a.css",
-    "static/js/main.53f83b2d.js"
+    "static/js/main.34157b60.js"
   ]
 }
