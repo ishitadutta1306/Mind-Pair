@@ -7,6 +7,11 @@ Mind Pair is a card-matching memory game created with React. The goal of the gam
 - Provides visual feedback for matched and unmatched cards.
 - Option to start a new game at any time.
 
+## Technologies
+- **React**
+- **JavaScript**
+- **CSS**
+
 ## Demo 
 Play the game here: [Mind Pair](https://ishitadutta1306.github.io/Mind-Pair/)
 
@@ -35,11 +40,6 @@ The app will be accessible at http://localhost:3000.
 - Click on a card to flip it.
 - Try to find a matching card by remembering the positions.
 - The game tracks the number of moves you take to find all pairs.
-
-## Technologies
-- **React**
-- **JavaScript**
-- **CSS**
 
 ## Folder Structure
 ```bash
