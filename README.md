@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Mind Pair
+Mind Pair is a card-matching memory game created with React. The goal of the game is to find all the matching pairs of cards with as few moves as possible.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Memory card matching game with a set of themed images.
+- Tracks the number of moves taken by the player.
+- Provides visual feedback for matched and unmatched cards.
+- Option to start a new game at any time.
 
-## Available Scripts
+## Demo 
+Play the game here: [Mind Pair](https://ishitadutta1306.github.io/Mind-Pair/)
 
-In the project directory, you can run:
+## Installation
+1. **Clone the repository:**
+```bash
+git clone https://github.com/ishitadutta1306/Mind-Pair.git
+```
+2. **Navigate to the project directory:**
+```bash
+cd mind-pair
+```
+3. **Install dependencies:**
+```bash
+npm install
+```
 
-### `npm start`
+## Usage
+1. **Run the app locally:**
+```bash
+npm start
+```
+The app will be accessible at http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Play the game:**
+- Click on a card to flip it.
+- Try to find a matching card by remembering the positions.
+- The game tracks the number of moves you take to find all pairs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
+- **React**
+- **JavaScript**
+- **CSS**
 
-### `npm test`
+## Folder Structure
+```bash
+mind-pair/
+├── public/
+│   ├── index.html            # Main HTML file
+│   ├── card-flip.png         # Favicon
+├── src/
+│   ├── Components/
+│   │   └── Card.jsx          # Card component
+│   ├── images/
+│   │   ├── crystal.png       # Card images
+│   │   ├── fairy-wings.png
+│   │   ├── key.png
+│   │   ├── potion.png
+│   │   ├── ring.png
+│   │   ├── wizard-hat.png
+│   ├── App.js                # Main application file
+│   ├── App.css               # Main CSS file
+│   └── index.js              # Entry point
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature (git checkout -b feature-name).
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature-name).
+5. Open a pull request.
