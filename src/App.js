@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';  //hooks
 import './App.css';
 import Card from './Components/Card';
 
-import cover from './images/cover-7.jpg';
 import crystal from './images/crystal.png';
 import fairyWings from './images/fairy-wings.png';
 import key from './images/key.png';
